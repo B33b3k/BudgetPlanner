@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "budget-planner",
+    "slug": "budget-planner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "scheme": "budgetplanner",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.b33b3k.budgetplanner"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "../assets/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ad2c35c0-268f-47e5-a0cf-4d42cbe21c24"
+      }
+    }
+  }
+}
